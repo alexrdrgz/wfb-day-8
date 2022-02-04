@@ -55,6 +55,12 @@ header{
     clear: both;
 }
 
+.row{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
 .column-half {
     width: 50%;
     float: left;
@@ -63,3 +69,24 @@ header{
     background-color: aqua;
     border: 1px solid black;
 }
+
+.column-third {
+    width: 33.33%;
+    float: left;
+    height: 333px;
+    padding: 50px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.column-fourth {
+    width: 25%;
+    float: left;
+    height: 400px;
+    padding: 25px;
+    background-color: gray;
+    color: blue;
+    border: 2px dashed brown;
+}
+
+
